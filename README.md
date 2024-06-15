@@ -6,7 +6,6 @@ Este repositorio contiene el código fuente de la landing page de MeMasterCode, 
 
 - HTML5
 - CSS3 (incluyendo estilos responsivos para dispositivos móviles)
-- JavaScript (para funcionalidades interactivas, si aplica)
 
 ## Funcionalidades Principales
 
@@ -44,4 +43,4 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT.
