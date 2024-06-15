@@ -1,0 +1,222 @@
+/* Reseteo y estilos básicos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(151deg, rgba(188,246,114,1) 21%, rgba(223,148,174,1) 50%, rgba(196,57,80,1) 78%);
+    font-family: cursive;
+    scroll-padding-top: 100px;
+}
+
+/* Contenedor principal */
+.page-wrapper {
+    position: relative;
+}
+
+/* Estilos del encabezado */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(302deg, rgba(196,57,80,0.81) 0%, rgba(223,148,174,0.84) 11%, rgba(188,246,114,1) 49%);
+    box-sizing: border-box;
+    z-index: 1000; 
+}
+
+.logo {
+    width: 55vw;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    max-width: 70px;
+    margin: 3px 20px;
+}
+
+nav {
+    font-weight: 400;
+}
+
+nav ul {
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+nav a {
+    color: #F52B54;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave para el color del texto */
+}
+
+nav a:hover {
+    color: white; /* Cambia el color del texto al pasar el ratón */
+}
+
+/* Estilos del hero */
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    margin-top: 150px;
+}
+
+#hero input[type='email'], 
+#hero input[type='submit'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    font-family: cursive;
+    margin: 10px 0 0;
+}
+
+#hero input[type='submit'] {
+    max-width: 150px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #BBFF65;
+    cursor: pointer; /* Añadido para indicar que el botón es interactivo */
+}
+
+.boton {
+    padding: 0 20px;
+    height: 40px;
+    font-family: cursive;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid black;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    color: white; /* Cambia el color del texto al pasar el ratón */
+    background-color: #F52B54; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Contenedor principal */
+#container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilos de secciones */
+.grid {
+    display: flex;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 80vw;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: -60px;
+    text-align: justify;
+}
+
+.desc h2 {
+    margin-bottom: 10px; /* Añadido margen inferior para separar los títulos de los párrafos */
+}
+
+.desc p {
+    line-height: 1.5; /* Aumenta el espacio entre líneas para una mejor legibilidad */
+}
+
+.desc li {
+    list-style: circle;
+    margin-left: 20px; /* Añadido margen izquierdo a los elementos de lista para mejor alineación */
+}
+
+/* Video */
+#video-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    max-width: 560px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#video {
+    width: 100%;
+    border-radius: 2px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    background: linear-gradient(151deg, rgba(223,148,174,1) 7%, rgba(196,57,80,0.81) 49%);
+    padding: 20px;
+    text-align: center;
+    color: #B9FA86;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px; /* Ajustado para mejor alineación en dispositivos pequeños */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        padding-bottom: 5px;
+    }
+
+    #hero {
+        margin-top: 120px;
+    }
+
+    .desc {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: auto; /* Ajustado para que la altura se adapte al contenido en dispositivos pequeños */
+    }
+
+    #video-wrapper {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding: 0 10px; /* Ajustado para mejor alineación en dispositivos pequeños */
+    }
+}
