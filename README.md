@@ -16,8 +16,8 @@ Este repositorio contiene el código fuente de la landing page de MeMasterCode, 
 
 ## Capturas de Pantalla
 
-([screenshots/desktop-screenshot.png](https://github.com/Mershar0/landingPage/blob/main/screenshots/ima%201.png))
-([screenshots/mobile-screenshot.png](https://github.com/Mershar0/landingPage/blob/main/screenshots/ima%202.png))
+([Nav/Form](https://github.com/Mershar0/landingPage/blob/main/screenshots/ima%201.png))
+([Vid/Footer](https://github.com/Mershar0/landingPage/blob/main/screenshots/ima%202.png))
 
 ## Instalación y Uso
 
@@ -40,7 +40,7 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 ## Autor
 
 - Nombre: Mershar0
-- GitHub: [Enlace a tu perfil de GitHub](github.com/Mershar0)
+- GitHub: [Mersha0](github.com/Mershar0)
 
 ## Licencia
 
